@@ -1,4 +1,4 @@
-﻿using CarManagementAPI.Data.Models;
+﻿using CarManagementAPI.Contracts;
 using System.ComponentModel.DataAnnotations;
 
 namespace CarManagementAPI.Models
@@ -9,16 +9,18 @@ namespace CarManagementAPI.Models
         public int Id { get; set; }
 
         [Required]
+        [StringLength(VаlidationConstants.Car.MakeMaxLength)]
         public string Make { get; set; } = null!;
 
         [Required]
+        [StringLength(VаlidationConstants.Car.ModelMaxLength)]
         public string Model { get; set; } = null!;
 
         [Required]
         public int ProductionYear { get; set; }
 
         [Required]
+        [StringLength(VаlidationConstants.Car.LicensePlateMaxLength)]
         public string LicensePlate { get; set; } = null!;
-        public ICollection<CarGarage> CarGarages { get; set; } = new HashSet<CarGarage>();
     }
 }

@@ -1,4 +1,5 @@
-﻿using CarManagementAPI.Models;
+﻿using CarManagementAPI.Contracts;
+using CarManagementAPI.Models;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -10,7 +11,7 @@ namespace CarManagementAPI.Data
         public int Id { get; set; }
 
         [Required]
-        public int CarId { get; set; } 
+        public int CarId { get; set; }
 
         [ForeignKey("CarId")]
         public Car Car { get; set; } = null!;
@@ -20,12 +21,11 @@ namespace CarManagementAPI.Data
 
         [ForeignKey("GarageId")]
         public Garage Garage { get; set; } = null!;
-
         [Required]
-        [MaxLength(100)]
+        [StringLength(VаlidationConstants.Maintenance.ServiceTypeMaxLength, MinimumLength = VаlidationConstants.Maintenance.ServiceTypeMinLength)]
         public string ServiceType { get; set; } = null!;
 
         [Required]
-        public DateTime ScheduledDate { get; set; } 
+        public DateTime ScheduledDate { get; set; }
     }
 }

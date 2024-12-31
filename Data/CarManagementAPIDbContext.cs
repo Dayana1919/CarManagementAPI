@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System;
 using Microsoft.EntityFrameworkCore;
-using CarManagementAPI.Data.Models;
+using System.Reflection.Emit;
 
 namespace CarManagementAPI.Data
 {
@@ -14,23 +14,7 @@ namespace CarManagementAPI.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            // Конфигурация на много към много връзката между Car и Garage
-            builder.Entity<CarGarage>()
-                .HasKey(e => new { e.CarId, e.GarageId });
-
-            builder.Entity<CarGarage>()
-                .HasOne(e => e.Car)
-                .WithMany(c => c.CarGarages)
-                .HasForeignKey(e => e.CarId)
-                .OnDelete(DeleteBehavior.NoAction);
-
-            builder.Entity<CarGarage>()
-                .HasOne(e => e.Garage)
-                .WithMany(g => g.CarsGarage)
-                .HasForeignKey(e => e.GarageId)
-                .OnDelete(DeleteBehavior.NoAction);
-
-            // Конфигурация за Maintenance
+            // Define relationships and keys
             builder.Entity<Maintenance>()
                 .HasOne(m => m.Car)
                 .WithMany()
@@ -43,16 +27,11 @@ namespace CarManagementAPI.Data
                 .HasForeignKey(m => m.GarageId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            builder.Entity<Maintenance>()
-                .HasIndex(m => new { m.CarId, m.ScheduledDate })
-                .IsUnique();
-
             base.OnModelCreating(builder);
         }
 
         public DbSet<Car> Cars { get; set; } = null!;
         public DbSet<Garage> Garages { get; set; } = null!;
         public DbSet<Maintenance> Maintenances { get; set; } = null!;
-        public DbSet<CarGarage> CarsGarages { get; set; } = null!;
     }
 }

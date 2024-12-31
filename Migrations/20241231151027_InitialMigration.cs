@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CarManagementAPI.Migrations
 {
-    public partial class Initial : Migration
+    public partial class InitialMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -15,10 +15,10 @@ namespace CarManagementAPI.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Make = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Model = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Make = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Model = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     ProductionYear = table.Column<int>(type: "int", nullable: false),
-                    LicensePlate = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    LicensePlate = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -31,36 +31,14 @@ namespace CarManagementAPI.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Location = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    City = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Location = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
+                    City = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Capacity = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Garages", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "CarsGarages",
-                columns: table => new
-                {
-                    CarId = table.Column<int>(type: "int", nullable: false),
-                    GarageId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_CarsGarages", x => new { x.CarId, x.GarageId });
-                    table.ForeignKey(
-                        name: "FK_CarsGarages_Cars_CarId",
-                        column: x => x.CarId,
-                        principalTable: "Cars",
-                        principalColumn: "Id");
-                    table.ForeignKey(
-                        name: "FK_CarsGarages_Garages_GarageId",
-                        column: x => x.GarageId,
-                        principalTable: "Garages",
-                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -71,7 +49,7 @@ namespace CarManagementAPI.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     CarId = table.Column<int>(type: "int", nullable: false),
                     GarageId = table.Column<int>(type: "int", nullable: false),
-                    ServiceType = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    ServiceType = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     ScheduledDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
@@ -92,15 +70,9 @@ namespace CarManagementAPI.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_CarsGarages_GarageId",
-                table: "CarsGarages",
-                column: "GarageId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Maintenances_CarId_ScheduledDate",
+                name: "IX_Maintenances_CarId",
                 table: "Maintenances",
-                columns: new[] { "CarId", "ScheduledDate" },
-                unique: true);
+                column: "CarId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Maintenances_GarageId",
@@ -110,9 +82,6 @@ namespace CarManagementAPI.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "CarsGarages");
-
             migrationBuilder.DropTable(
                 name: "Maintenances");
 

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarManagementAPI.Migrations
 {
     [DbContext(typeof(CarManagementAPIDbContext))]
-    [Migration("20241228165618_Initial")]
-    partial class Initial
+    [Migration("20241231151027_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -43,32 +43,16 @@ namespace CarManagementAPI.Migrations
 
                     b.Property<string>("ServiceType")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("GarageId");
+                    b.HasIndex("CarId");
 
-                    b.HasIndex("CarId", "ScheduledDate")
-                        .IsUnique();
+                    b.HasIndex("GarageId");
 
                     b.ToTable("Maintenances");
-                });
-
-            modelBuilder.Entity("CarManagementAPI.Data.Models.CarGarage", b =>
-                {
-                    b.Property<int>("CarId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("GarageId")
-                        .HasColumnType("int");
-
-                    b.HasKey("CarId", "GarageId");
-
-                    b.HasIndex("GarageId");
-
-                    b.ToTable("CarsGarages");
                 });
 
             modelBuilder.Entity("CarManagementAPI.Models.Car", b =>
@@ -81,15 +65,18 @@ namespace CarManagementAPI.Migrations
 
                     b.Property<string>("LicensePlate")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(15)
+                        .HasColumnType("nvarchar(15)");
 
                     b.Property<string>("Make")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Model")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("ProductionYear")
                         .HasColumnType("int");
@@ -112,15 +99,18 @@ namespace CarManagementAPI.Migrations
 
                     b.Property<string>("City")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Location")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
@@ -144,35 +134,6 @@ namespace CarManagementAPI.Migrations
                     b.Navigation("Car");
 
                     b.Navigation("Garage");
-                });
-
-            modelBuilder.Entity("CarManagementAPI.Data.Models.CarGarage", b =>
-                {
-                    b.HasOne("CarManagementAPI.Models.Car", "Car")
-                        .WithMany("CarGarages")
-                        .HasForeignKey("CarId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.HasOne("CarManagementAPI.Models.Garage", "Garage")
-                        .WithMany("CarsGarage")
-                        .HasForeignKey("GarageId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.Navigation("Car");
-
-                    b.Navigation("Garage");
-                });
-
-            modelBuilder.Entity("CarManagementAPI.Models.Car", b =>
-                {
-                    b.Navigation("CarGarages");
-                });
-
-            modelBuilder.Entity("CarManagementAPI.Models.Garage", b =>
-                {
-                    b.Navigation("CarsGarage");
                 });
 #pragma warning restore 612, 618
         }
