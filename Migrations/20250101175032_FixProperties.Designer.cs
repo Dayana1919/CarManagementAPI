@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarManagementAPI.Migrations
 {
     [DbContext(typeof(CarManagementAPIDbContext))]
-    [Migration("20241231151027_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20250101175032_FixProperties")]
+    partial class FixProperties
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -117,23 +117,65 @@ namespace CarManagementAPI.Migrations
                     b.ToTable("Garages");
                 });
 
+            modelBuilder.Entity("CarsGarages", b =>
+                {
+                    b.Property<int>("CarId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("GarageId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CarId", "GarageId");
+
+                    b.HasIndex("GarageId");
+
+                    b.ToTable("CarsGarages");
+                });
+
             modelBuilder.Entity("CarManagementAPI.Data.Maintenance", b =>
                 {
                     b.HasOne("CarManagementAPI.Models.Car", "Car")
-                        .WithMany()
+                        .WithMany("Maintenances")
                         .HasForeignKey("CarId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("CarManagementAPI.Models.Garage", "Garage")
-                        .WithMany()
+                        .WithMany("Maintenances")
                         .HasForeignKey("GarageId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Car");
 
                     b.Navigation("Garage");
+                });
+
+            modelBuilder.Entity("CarsGarages", b =>
+                {
+                    b.HasOne("CarManagementAPI.Models.Car", null)
+                        .WithMany()
+                        .HasForeignKey("CarId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_CarsGarages_Cars");
+
+                    b.HasOne("CarManagementAPI.Models.Garage", null)
+                        .WithMany()
+                        .HasForeignKey("GarageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_CarsGarages_Garages");
+                });
+
+            modelBuilder.Entity("CarManagementAPI.Models.Car", b =>
+                {
+                    b.Navigation("Maintenances");
+                });
+
+            modelBuilder.Entity("CarManagementAPI.Models.Garage", b =>
+                {
+                    b.Navigation("Maintenances");
                 });
 #pragma warning restore 612, 618
         }

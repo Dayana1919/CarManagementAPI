@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\reports\\monthlyrequestsreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\reports\\monthlyrequestsreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\migrations\\20241231151027_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:migrations\\20241231151027_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\reports\\garagedailyavailabilityreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\reports\\garagedailyavailabilityreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\services\\garageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:services\\garageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\maintanace\\responsemaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\maintanace\\responsemaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\services\\maintenanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:services\\maintenanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\maintanace\\updatemaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\maintanace\\updatemaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\garage\\creategaragedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\garage\\creategaragedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\maintanace\\createmaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\maintanace\\createmaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\controllers\\garagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:controllers\\garagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\contracts\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:contracts\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\car\\createcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\car\\createcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\controllers\\maintenancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:controllers\\maintenancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\car\\updatecardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,44 +47,63 @@
       "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\car\\responsecardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\car\\createcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\car\\createcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\garage\\updategaragedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\garage\\updategaragedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\garage\\responsegaragedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\garage\\responsegaragedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\garage\\creategaragedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\garage\\creategaragedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\contracts\\imaintenanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:contracts\\imaintenanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\garage\\updategaragedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\garage\\updategaragedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\contracts\\igarageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:contracts\\igarageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\contracts\\v\u0430lidationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:contracts\\v\u0430lidationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\data\\carmanagementapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:data\\carmanagementapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\data\\models\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:data\\models\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\maintanace\\updatemaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\maintanace\\updatemaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\data\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:data\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\maintanace\\createmaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\maintanace\\createmaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\maintanace\\responsemaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\maintanace\\responsemaintenancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\data\\models\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:data\\models\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\reports\\garagedailyavailabilityreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\reports\\garagedailyavailabilityreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\data\\models\\maintenance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:data\\models\\maintenance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\controllers\\garagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:controllers\\garagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\data\\carmanagementapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:data\\carmanagementapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\dtos\\reports\\monthlyrequestsreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:dtos\\reports\\monthlyrequestsreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -81,6 +112,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\common\\v\u0430lidationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|solutionrelative:common\\v\u0430lidationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EA67780-5367-4111-BD93-9B7580AE4120}|CarManagementAPI.csproj|c:\\users\\dpenk\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\carmanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -94,7 +129,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,137 +137,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GarageDailyAvailabilityReportDto.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Reports\\GarageDailyAvailabilityReportDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Reports\\GarageDailyAvailabilityReportDto.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Reports\\GarageDailyAvailabilityReportDto.cs",
-              "RelativeToolTip": "DTOs\\Reports\\GarageDailyAvailabilityReportDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T16:04:27.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MonthlyRequestsReportDto.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Reports\\MonthlyRequestsReportDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Reports\\MonthlyRequestsReportDto.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Reports\\MonthlyRequestsReportDto.cs",
-              "RelativeToolTip": "DTOs\\Reports\\MonthlyRequestsReportDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA2AAAA",
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Services\\CarService.cs",
+              "RelativeToolTip": "Services\\CarService.cs",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAAAKQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T16:03:30.361Z",
+              "WhenOpened": "2024-12-31T18:27:53.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ResponseMaintenanceDto.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Maintanace\\ResponseMaintenanceDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Maintanace\\ResponseMaintenanceDto.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Maintanace\\ResponseMaintenanceDto.cs",
-              "RelativeToolTip": "DTOs\\Maintanace\\ResponseMaintenanceDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
+              "Title": "MaintenanceService.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Services\\MaintenanceService.cs",
+              "RelativeDocumentMoniker": "Services\\MaintenanceService.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Services\\MaintenanceService.cs",
+              "RelativeToolTip": "Services\\MaintenanceService.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAMwHkAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T16:02:35.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UpdateCarDto.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Car\\UpdateCarDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Car\\UpdateCarDto.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Car\\UpdateCarDto.cs",
-              "RelativeToolTip": "DTOs\\Car\\UpdateCarDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T15:35:48.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20241231151027_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Migrations\\20241231151027_InitialMigration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241231151027_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Migrations\\20241231151027_InitialMigration.cs",
-              "RelativeToolTip": "Migrations\\20241231151027_InitialMigration.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAABwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T15:10:43.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ResponseCarDto.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Car\\ResponseCarDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Car\\ResponseCarDto.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Car\\ResponseCarDto.cs",
-              "RelativeToolTip": "DTOs\\Car\\ResponseCarDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T16:01:01.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ResponseGarageDto.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Garage\\ResponseGarageDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Garage\\ResponseGarageDto.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Garage\\ResponseGarageDto.cs",
-              "RelativeToolTip": "DTOs\\Garage\\ResponseGarageDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T15:54:53.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateCarDto.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Car\\CreateCarDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Car\\CreateCarDto.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Car\\CreateCarDto.cs",
-              "RelativeToolTip": "DTOs\\Car\\CreateCarDto.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABAAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T15:34:58.986Z",
+              "WhenOpened": "2024-12-31T20:35:02.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CreateMaintenanceDto.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Maintanace\\CreateMaintenanceDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Maintanace\\CreateMaintenanceDto.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Maintanace\\CreateMaintenanceDto.cs",
-              "RelativeToolTip": "DTOs\\Maintanace\\CreateMaintenanceDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABvAAAA",
+              "Title": "GarageController.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Controllers\\GarageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GarageController.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Controllers\\GarageController.cs",
+              "RelativeToolTip": "Controllers\\GarageController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T15:37:25.84Z",
+              "WhenOpened": "2024-12-31T21:23:53.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Controllers\\CarController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC8AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T20:45:42.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Contracts\\ICarService.cs",
+              "RelativeDocumentMoniker": "Contracts\\ICarService.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Contracts\\ICarService.cs",
+              "RelativeToolTip": "Contracts\\ICarService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T16:36:43.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UpdateMaintenanceDto.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Maintanace\\UpdateMaintenanceDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Maintanace\\UpdateMaintenanceDto.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Maintanace\\UpdateMaintenanceDto.cs",
-              "RelativeToolTip": "DTOs\\Maintanace\\UpdateMaintenanceDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T15:38:06.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "CreateGarageDto.cs",
               "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Garage\\CreateGarageDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Garage\\CreateGarageDto.cs",
@@ -241,6 +211,71 @@
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T15:30:25.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GarageService.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Services\\GarageService.cs",
+              "RelativeDocumentMoniker": "Services\\GarageService.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Services\\GarageService.cs",
+              "RelativeToolTip": "Services\\GarageService.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T16:37:16.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateCarDto.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Car\\CreateCarDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Car\\CreateCarDto.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Car\\CreateCarDto.cs",
+              "RelativeToolTip": "DTOs\\Car\\CreateCarDto.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T15:34:58.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MaintenanceController.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Controllers\\MaintenanceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MaintenanceController.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Controllers\\MaintenanceController.cs",
+              "RelativeToolTip": "Controllers\\MaintenanceController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T20:46:04.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateCarDto.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Car\\UpdateCarDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Car\\UpdateCarDto.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Car\\UpdateCarDto.cs",
+              "RelativeToolTip": "DTOs\\Car\\UpdateCarDto.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T15:35:48.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResponseCarDto.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Car\\ResponseCarDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Car\\ResponseCarDto.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Car\\ResponseCarDto.cs",
+              "RelativeToolTip": "DTOs\\Car\\ResponseCarDto.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T16:01:01.956Z",
               "EditorCaption": ""
             },
             {
@@ -259,84 +294,188 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "V\u0430lidationConstants.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Contracts\\V\u0430lidationConstants.cs",
-              "RelativeDocumentMoniker": "Contracts\\V\u0430lidationConstants.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Contracts\\V\u0430lidationConstants.cs",
-              "RelativeToolTip": "Contracts\\V\u0430lidationConstants.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Title": "ResponseGarageDto.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Garage\\ResponseGarageDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Garage\\ResponseGarageDto.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Garage\\ResponseGarageDto.cs",
+              "RelativeToolTip": "DTOs\\Garage\\ResponseGarageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T14:37:47.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GarageController.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Controllers\\GarageController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GarageController.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Controllers\\GarageController.cs",
-              "RelativeToolTip": "Controllers\\GarageController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T17:30:09.48Z",
+              "WhenOpened": "2024-12-31T15:54:53.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "CarManagementAPIDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Data\\CarManagementAPIDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\CarManagementAPIDbContext.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Data\\CarManagementAPIDbContext.cs",
-              "RelativeToolTip": "Data\\CarManagementAPIDbContext.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAAB0AAAAoAAAA",
+              "Title": "IMaintenanceService.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Contracts\\IMaintenanceService.cs",
+              "RelativeDocumentMoniker": "Contracts\\IMaintenanceService.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Contracts\\IMaintenanceService.cs",
+              "RelativeToolTip": "Contracts\\IMaintenanceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T12:15:09.949Z",
+              "WhenOpened": "2024-12-31T16:36:57.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Maintenance.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Data\\Models\\Maintenance.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\Maintenance.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Data\\Models\\Maintenance.cs",
-              "RelativeToolTip": "Data\\Models\\Maintenance.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABeAAAA",
+              "DocumentIndex": 14,
+              "Title": "IGarageService.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Contracts\\IGarageService.cs",
+              "RelativeDocumentMoniker": "Contracts\\IGarageService.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Contracts\\IGarageService.cs",
+              "RelativeToolTip": "Contracts\\IGarageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T14:43:51.412Z",
+              "WhenOpened": "2024-12-31T16:34:51.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "UpdateMaintenanceDto.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Maintanace\\UpdateMaintenanceDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Maintanace\\UpdateMaintenanceDto.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Maintanace\\UpdateMaintenanceDto.cs",
+              "RelativeToolTip": "DTOs\\Maintanace\\UpdateMaintenanceDto.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T15:38:06.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Data\\Models\\Car.cs",
               "RelativeDocumentMoniker": "Data\\Models\\Car.cs",
               "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Data\\Models\\Car.cs",
               "RelativeToolTip": "Data\\Models\\Car.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvxoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T14:34:34.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Garage.cs",
-              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Data\\Models\\Garage.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\Garage.cs",
-              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Data\\Models\\Garage.cs",
-              "RelativeToolTip": "Data\\Models\\Garage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
+              "DocumentIndex": 17,
+              "Title": "CreateMaintenanceDto.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Maintanace\\CreateMaintenanceDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Maintanace\\CreateMaintenanceDto.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Maintanace\\CreateMaintenanceDto.cs",
+              "RelativeToolTip": "DTOs\\Maintanace\\CreateMaintenanceDto.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABEAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T14:32:59.147Z",
+              "WhenOpened": "2024-12-31T15:37:25.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAGcWAAAAAAAAAAAAwHsWAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-01-01T18:33:19.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "ResponseMaintenanceDto.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Maintanace\\ResponseMaintenanceDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Maintanace\\ResponseMaintenanceDto.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Maintanace\\ResponseMaintenanceDto.cs",
+              "RelativeToolTip": "DTOs\\Maintanace\\ResponseMaintenanceDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T16:02:35.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Garage.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Data\\Models\\Garage.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Garage.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Data\\Models\\Garage.cs",
+              "RelativeToolTip": "Data\\Models\\Garage.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T23:29:08.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GarageDailyAvailabilityReportDto.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Reports\\GarageDailyAvailabilityReportDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Reports\\GarageDailyAvailabilityReportDto.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Reports\\GarageDailyAvailabilityReportDto.cs",
+              "RelativeToolTip": "DTOs\\Reports\\GarageDailyAvailabilityReportDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T16:04:27.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-01T14:44:34.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Maintenance.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Data\\Models\\Maintenance.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Maintenance.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Data\\Models\\Maintenance.cs",
+              "RelativeToolTip": "Data\\Models\\Maintenance.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T14:43:51.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CarManagementAPIDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Data\\CarManagementAPIDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\CarManagementAPIDbContext.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Data\\CarManagementAPIDbContext.cs",
+              "RelativeToolTip": "Data\\CarManagementAPIDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T12:15:09.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MonthlyRequestsReportDto.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Reports\\MonthlyRequestsReportDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Reports\\MonthlyRequestsReportDto.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\DTOs\\Reports\\MonthlyRequestsReportDto.cs",
+              "RelativeToolTip": "DTOs\\Reports\\MonthlyRequestsReportDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T16:03:30.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -344,23 +483,36 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-22T13:14:02.392Z"
+              "WhenOpened": "2024-12-22T13:14:02.392Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAADAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T13:15:47.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
+              "Title": "V\u0430lidationConstants.cs",
+              "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Common\\V\u0430lidationConstants.cs",
+              "RelativeDocumentMoniker": "Common\\V\u0430lidationConstants.cs",
+              "ToolTip": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Common\\V\u0430lidationConstants.cs",
+              "RelativeToolTip": "Common\\V\u0430lidationConstants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T14:37:47.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\dpenk\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\CarManagementAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",

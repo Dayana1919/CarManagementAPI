@@ -1,4 +1,5 @@
 ﻿using CarManagementAPI.Contracts;
+using CarManagementAPI.Data;
 using System.ComponentModel.DataAnnotations;
 
 namespace CarManagementAPI.Models
@@ -22,5 +23,9 @@ namespace CarManagementAPI.Models
         [Required]
         [StringLength(VаlidationConstants.Car.LicensePlateMaxLength)]
         public string LicensePlate { get; set; } = null!;
+
+        public virtual ICollection<Garage> Garages { get; set; } = new List<Garage>();
+
+        public ICollection<Maintenance> Maintenances { get; set; } = new List<Maintenance>();
     }
 }

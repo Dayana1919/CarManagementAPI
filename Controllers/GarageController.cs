@@ -1,106 +1,121 @@
-﻿using CarManagementAPI.Data;
+﻿using CarManagementAPI.Contracts;
+using CarManagementAPI.Data;
+using CarManagementAPI.DTOs.Garage;
+using CarManagementAPI.DTOs.Reports;
 using CarManagementAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Net;
 
 namespace CarManagementAPI.Controllers
 {
     [ApiController]
-    [Route("api/garages")]
+    [Route("/garages")]
     public class GarageController : ControllerBase
     {
-        private readonly CarManagementAPIDbContext _context;
+        
+        private readonly IGarageService _garageService;
 
-        public GarageController(CarManagementAPIDbContext context)
+        public GarageController(IGarageService garageService)
         {
-            _context = context;
+            _garageService = garageService;
         }
 
-        // GET: api/garages
-        [HttpGet]
-        public async Task<IActionResult> GetAllGarages([FromQuery] string? city)
+        [HttpGet("dailyAvailabilityReport")]
+        [ProducesResponseType(typeof(IEnumerable<GarageDailyAvailabilityReportDto>), (int)HttpStatusCode.OK)]
+        public async Task<IActionResult> GetDailyAvailabilityReport([FromQuery] int garageId, [FromQuery] string startDate, [FromQuery] string endDate)
         {
-            var query = _context.Garages.AsQueryable();
-
-            if (!string.IsNullOrEmpty(city))
+            try
             {
-                query = query.Where(g => g.City == city);
+                var report = await _garageService.GenerateDailyAvailabilityReportAsync(garageId, startDate, endDate);
+                return Ok(report);
             }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
 
-            var garages = await query.ToListAsync();
+        [HttpGet]
+        [ProducesResponseType(typeof(IEnumerable<ResponseGarageDto>), (int)HttpStatusCode.OK)]
+        public async Task<IActionResult> GetAll([FromQuery] string? city)
+        {
+            var garages = await _garageService.GetFilteredAsync(city);
             return Ok(garages);
         }
 
-        // GET: api/garages/{id}
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetGarageById(int id)
+        [ProducesResponseType(typeof(ResponseGarageDto), (int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        public async Task<IActionResult> GetById(int id)
         {
-            var garage = await _context.Garages.FindAsync(id);
-
-            if (garage == null)
+            try
             {
-                return NotFound(new { message = "Garage not found" });
+                var garage = await _garageService.GetByIdAsync(id);
+                return Ok(garage);
             }
-
-            return Ok(garage);
+            catch (KeyNotFoundException)
+            {
+                return NotFound();
+            }
         }
 
-        // POST: api/garages
         [HttpPost]
-        public async Task<IActionResult> CreateGarage([FromBody] Garage garage)
+        [ProducesResponseType(typeof(string), (int)HttpStatusCode.Created)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        public async Task<IActionResult> Create([FromBody] Garage garage)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            _context.Garages.Add(garage);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(GetGarageById), new { id = garage.Id }, garage);
+            var createdId = await _garageService.CreateAsync(garage);
+            return CreatedAtAction(nameof(GetById), new { id = createdId }, $"Garage created with ID {createdId}");
         }
 
-        // PUT: api/garages/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateGarage(int id, [FromBody] Garage updatedGarage)
+        [ProducesResponseType(typeof(ResponseGarageDto), (int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        public async Task<IActionResult> Update(int id, [FromBody] UpdateGarageDto garageDto)
         {
-            if (id != updatedGarage.Id)
+            if (!ModelState.IsValid)
             {
-                return BadRequest(new { message = "ID mismatch" });
+                return BadRequest(ModelState);
             }
 
-            var existingGarage = await _context.Garages.FindAsync(id);
-
-            if (existingGarage == null)
+            try
             {
-                return NotFound(new { message = "Garage not found" });
+                await _garageService.UpdateAsync(id, garageDto);
+                var updatedGarage = await _garageService.GetByIdAsync(id);
+                return Ok(updatedGarage);
             }
-
-            existingGarage.Name = updatedGarage.Name;
-            existingGarage.Location = updatedGarage.Location;
-            existingGarage.City = updatedGarage.City;
-            existingGarage.Capacity = updatedGarage.Capacity;
-
-            await _context.SaveChangesAsync();
-
-            return Ok(existingGarage);
+            catch (KeyNotFoundException)
+            {
+                return NotFound();
+            }
         }
 
-        // DELETE: api/garages/{id}
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteGarage(int id)
+        [ProducesResponseType((int)HttpStatusCode.NoContent)]
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        public async Task<IActionResult> Delete(int id)
         {
-            var garage = await _context.Garages.FindAsync(id);
-
-            if (garage == null)
+            try
             {
-                return NotFound(new { message = "Garage not found" });
+                var garage = await _garageService.GetByIdAsync(id);
+                await _garageService.DeleteAsync(new Garage { Id = garage.Id });
+                return NoContent();
             }
-
-            _context.Garages.Remove(garage);
-            await _context.SaveChangesAsync();
-
-            return Ok(new { message = "Garage deleted successfully" });
+            catch (KeyNotFoundException)
+            {
+                return NotFound();
+            }
         }
     }
 }

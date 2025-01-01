@@ -14,13 +14,13 @@ namespace CarManagementAPI.Data
         public int CarId { get; set; }
 
         [ForeignKey("CarId")]
-        public Car Car { get; set; } = null!;
+        public Car? Car { get; set; }
 
         [Required]
         public int GarageId { get; set; }
 
         [ForeignKey("GarageId")]
-        public Garage Garage { get; set; } = null!;
+        public Garage? Garage { get; set; }
         [Required]
         [StringLength(VаlidationConstants.Maintenance.ServiceTypeMaxLength, MinimumLength = VаlidationConstants.Maintenance.ServiceTypeMinLength)]
         public string ServiceType { get; set; } = null!;

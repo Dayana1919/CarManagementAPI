@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CarManagementAPI.Migrations
 {
-    public partial class InitialMigration : Migration
+    public partial class InitialCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -42,6 +42,30 @@ namespace CarManagementAPI.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "CarsGarages",
+                columns: table => new
+                {
+                    CarId = table.Column<int>(type: "int", nullable: false),
+                    GarageId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_CarsGarages", x => new { x.CarId, x.GarageId });
+                    table.ForeignKey(
+                        name: "FK_CarsGarages_Cars",
+                        column: x => x.CarId,
+                        principalTable: "Cars",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_CarsGarages_Garages",
+                        column: x => x.GarageId,
+                        principalTable: "Garages",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Maintenances",
                 columns: table => new
                 {
@@ -60,14 +84,19 @@ namespace CarManagementAPI.Migrations
                         column: x => x.CarId,
                         principalTable: "Cars",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Maintenances_Garages_GarageId",
                         column: x => x.GarageId,
                         principalTable: "Garages",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_CarsGarages_GarageId",
+                table: "CarsGarages",
+                column: "GarageId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Maintenances_CarId",
@@ -82,6 +111,9 @@ namespace CarManagementAPI.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "CarsGarages");
+
             migrationBuilder.DropTable(
                 name: "Maintenances");
 

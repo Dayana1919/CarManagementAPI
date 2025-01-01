@@ -6,7 +6,7 @@
         public int CarId { get; set; }
         public string CarName { get; set; } = null!;
         public string ServiceType { get; set; } = null!;
-        public DateTime ScheduledDate { get; set; }
+        public string? ScheduledDate { get; set; }
         public int GarageId { get; set; }
         public string GarageName { get; set; } = null!;
     }

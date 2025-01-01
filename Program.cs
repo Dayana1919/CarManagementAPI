@@ -1,4 +1,6 @@
-﻿using CarManagementAPI.Data;
+﻿using CarManagementAPI.Contracts;
+using CarManagementAPI.Data;
+using CarManagementAPI.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,13 +25,18 @@ builder.Services.AddCors(options =>
     });
 });
 
-var app = builder.Build();
 
 builder.Services.AddControllers();
+
+builder.Services.AddScoped<ICarService, CarService>();
+builder.Services.AddScoped<IGarageService, GarageService>();
+builder.Services.AddScoped<IMaintenanceService, MaintenanceService>();
 
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
